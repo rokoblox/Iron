@@ -1,4 +1,5 @@
-pub extern fn hello_world() {
+#[no_mangle]
+pub extern "system" fn Java_com_rokoblox_iron_NativeLibLoader_hello_1world() {
     println!("Hello from rust!");
 }
 
